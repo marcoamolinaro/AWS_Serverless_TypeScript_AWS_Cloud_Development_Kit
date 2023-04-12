@@ -2,6 +2,6 @@
 
 1. Criar diretório ECommerceAWS
 2. Entrar no diretório ECommerceAWS
-3. Para criar o projeto digite o comando 
-    **cdk init --language typescript**
+3. Para criar o projeto digite o comando
+   **cdk init --language typescript**
     
