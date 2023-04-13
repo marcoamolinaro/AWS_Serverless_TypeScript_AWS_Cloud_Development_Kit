@@ -13,5 +13,5 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
 
-Instalar as seguintes bibliotecas com o comando (terminal bash)
+Entrar no diretório do projeto ECommerceAWS e instalar as seguintes bibliotecas com o comando (terminal bash)
 npm install aws-sdk @types/aws-lambda @types/uuid --save-dev
