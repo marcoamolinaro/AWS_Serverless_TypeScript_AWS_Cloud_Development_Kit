@@ -5,6 +5,8 @@ export async function handler(event: APIGatewayProxyEvent, context: Context): Pr
     const lambdaRequestId = context.awsRequestId
     const apiRequestId = event.requestContext.requestId
 
+    console.log('API Gateway RequestId: ${apiRequstId} - Lambda RequestId: ${lambdaRequestId}')
+
     const method = event.httpMethod
 
     if (event.resource == "/products") {
